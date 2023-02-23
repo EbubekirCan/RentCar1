@@ -124,6 +124,7 @@ public class MusteriveAracBilgileri {
         System.out.printf("%-8s | %-10s | %-10s | %-10s | %-3s \n", "MARKA", "MODEL ", "YAKIT TÜRÜ", "VİTES", "TOPLAM TUTAR");
 
 
+
         switch (secim) {
             case 1:
                 toplamTutar = kiralanacakgunsayisi * arac1.getGunlukKiralamaUcreti();
