@@ -125,7 +125,8 @@ public class MusteriveAracBilgileri {
 
 
 
-        switch (secim) {
+
+         switch (secim) {
             case 1:
                 toplamTutar = kiralanacakgunsayisi * arac1.getGunlukKiralamaUcreti();
                 System.out.printf("%-8s | %-10s | %-10s | %-10s | %-3s \n",
