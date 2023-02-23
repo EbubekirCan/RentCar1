@@ -123,8 +123,10 @@ public class MusteriveAracBilgileri {
         System.out.println("------------------------------------------------------------------------");
         System.out.printf("%-8s | %-10s | %-10s | %-10s | %-3s \n", "MARKA", "MODEL ", "YAKIT TÜRÜ", "VİTES", "TOPLAM TUTAR");
 
-        System.out.println("niye");
-        switch (secim) {
+
+
+
+         switch (secim) {
             case 1:
                 toplamTutar = kiralanacakgunsayisi * arac1.getGunlukKiralamaUcreti();
                 System.out.printf("%-8s | %-10s | %-10s | %-10s | %-3s \n",
